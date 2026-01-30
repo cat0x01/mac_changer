@@ -43,20 +43,7 @@ A **MAC (Media Access Control) address** is a unique identifier assigned to netw
    ifconfig eth0
    ```
 
-### On Linux (using ip command)
 
-```bash
-# Check current MAC
-ip link show eth0
-
-# Change MAC address
-sudo ip link set dev eth0 down
-sudo ip link set dev eth0 address 00:11:22:33:44:55
-sudo ip link set dev eth0 up
-
-# Verify
-ip link show eth0
-```
 
 ## How to Use This Tool
 
@@ -130,11 +117,6 @@ MAC Address Changed to: 00:11:22:33:44:55 for interface eth0
 - Affect network connectivity
 - Require administrator/root privileges
 
-### Requirements
-
-- **Root privileges**: You need to run this tool with `sudo` or as root
-- **Valid interface**: Make sure the interface exists and is active
-- **Valid MAC format**: Use proper MAC address format (XX:XX:XX:XX:XX:XX)
 
 ### Troubleshooting
 
@@ -153,11 +135,9 @@ MAC Address Changed to: 00:11:22:33:44:55 for interface eth0
    - Use format: XX:XX:XX:XX:XX:XX
    - Each pair should be hexadecimal (0-9, A-F)
 
-## Legal Disclaimer
-
-This tool is provided for educational purposes only. The author is not responsible for any misuse or damage caused by this tool. Use at your own risk and ensure you comply with all applicable laws and regulations in your jurisdiction.
 
 ## Author
 
 **Created by:** cat0x01
+
 **GitHub:** [https://github.com/cat0x01](https://github.com/cat0x01)
