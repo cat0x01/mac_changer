@@ -117,7 +117,7 @@ MAC Address Changed to: 00:11:22:33:44:55 for interface eth0
 - Affect network connectivity
 - Require administrator/root privileges
 
-
+ 
 ### Troubleshooting
 
 **Common issues:**
